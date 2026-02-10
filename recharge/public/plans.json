@@ -1,0 +1,1563 @@
+[
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day Unlimited Pack",
+    "price": 299,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1,
+      "display_text": "1 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.68,
+    "total_data_gb": 28,
+    "cost_per_gb": 10.68
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day 5G Xstream Pack",
+    "price": 349,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Xstream Play",
+      "Apple Music"
+    ],
+    "cost_per_day": 12.46,
+    "total_data_gb": 56,
+    "cost_per_gb": 6.23
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "30 Day 5G Apple Music Pack",
+    "price": 379,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Apple Music"
+    ],
+    "cost_per_day": 12.63,
+    "total_data_gb": 60,
+    "cost_per_gb": 6.32
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day 5G Hotstar Pack",
+    "price": 398,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar"
+    ],
+    "cost_per_day": 14.21,
+    "total_data_gb": 56,
+    "cost_per_gb": 7.11
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day Unlimited 4G+5G Pack",
+    "price": 399,
+    "validity_days": 28,
+    "data": {
+      "type": "lumpsum",
+      "limit_gb": 300,
+      "display_text": "Unlimited (300 GB FUP)"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Unlimited 4G Data",
+      "Xstream Play",
+      "Adobe Express Premium"
+    ],
+    "cost_per_day": 14.25,
+    "total_data_gb": 300,
+    "cost_per_gb": 1.33
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day 5G Xstream Premium Pack",
+    "price": 409,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Xstream Premium"
+    ],
+    "cost_per_day": 14.61,
+    "total_data_gb": 70,
+    "cost_per_gb": 5.84
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "30 Day 5G Unlimited Pack",
+    "price": 429,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data"
+    ],
+    "cost_per_day": 14.3,
+    "total_data_gb": 75,
+    "cost_per_gb": 5.72
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day Unlimited 4G+5G OTT Pack",
+    "price": 449,
+    "validity_days": 28,
+    "data": {
+      "type": "lumpsum",
+      "limit_gb": 300,
+      "display_text": "Unlimited (300 GB FUP)"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Unlimited 4G Data",
+      "JioHotstar",
+      "SonyLIV",
+      "Xstream Play",
+      "Apple Music",
+      "Google One"
+    ],
+    "cost_per_day": 16.04,
+    "total_data_gb": 300,
+    "cost_per_gb": 1.5
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "56 Day Unlimited Pack",
+    "price": 579,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.34,
+    "total_data_gb": 84,
+    "cost_per_gb": 6.89
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "28 Day Netflix Hotstar Pack",
+    "price": 598,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Netflix Basic",
+      "JioHotstar",
+      "ZEE5",
+      "Xstream Play"
+    ],
+    "cost_per_day": 21.36,
+    "total_data_gb": 56,
+    "cost_per_gb": 10.68
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "60 Day Unlimited Pack",
+    "price": 619,
+    "validity_days": 60,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.32,
+    "total_data_gb": 90,
+    "cost_per_gb": 6.88
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "56 Day 5G Xstream Pack",
+    "price": 649,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Xstream Premium"
+    ],
+    "cost_per_day": 11.59,
+    "total_data_gb": 112,
+    "cost_per_gb": 5.79
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "77 Day Unlimited Pack",
+    "price": 799,
+    "validity_days": 77,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.38,
+    "total_data_gb": 115.5,
+    "cost_per_gb": 6.92
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "56 Day 5G Amazon Prime Pack",
+    "price": 838,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Amazon Prime Lite",
+      "Xstream Premium"
+    ],
+    "cost_per_day": 14.96,
+    "total_data_gb": 168,
+    "cost_per_gb": 4.99
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day Unlimited Pack",
+    "price": 859,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.23,
+    "total_data_gb": 126,
+    "cost_per_gb": 6.82
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "90 Day Unlimited Pack",
+    "price": 929,
+    "validity_days": 90,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 10.32,
+    "total_data_gb": 135,
+    "cost_per_gb": 6.88
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day 5G Xstream Pack",
+    "price": 979,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Xstream Premium"
+    ],
+    "cost_per_day": 11.65,
+    "total_data_gb": 168,
+    "cost_per_gb": 5.83
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day 5G Hotstar Pack",
+    "price": 1029,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar"
+    ],
+    "cost_per_day": 12.25,
+    "total_data_gb": 168,
+    "cost_per_gb": 6.13
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day 5G Amazon Prime Pack",
+    "price": 1199,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Amazon Prime Lite",
+      "Xstream Play Premium"
+    ],
+    "cost_per_day": 14.27,
+    "total_data_gb": 210,
+    "cost_per_gb": 5.71
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day 5G Netflix Hotstar Pack",
+    "price": 1729,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Netflix Basic",
+      "JioHotstar",
+      "ZEE5",
+      "Xstream Play Premium"
+    ],
+    "cost_per_day": 20.58,
+    "total_data_gb": 168,
+    "cost_per_gb": 10.29
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "84 Day 5G Netflix Pack",
+    "price": 1798,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "Netflix Basic"
+    ],
+    "cost_per_day": 21.4,
+    "total_data_gb": 252,
+    "cost_per_gb": 7.13
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "Annual 5G Hotstar Pack",
+    "price": 3599,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar",
+      "Xstream Play Premium"
+    ],
+    "cost_per_day": 9.86,
+    "total_data_gb": 730,
+    "cost_per_gb": 4.93
+  },
+  {
+    "operator": "Airtel",
+    "plan_name": "Annual 5G Hotstar Pack",
+    "price": 3999,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar"
+    ],
+    "cost_per_day": 10.96,
+    "total_data_gb": 912.5,
+    "cost_per_gb": 4.38
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "28 Day Basic Pack",
+    "price": 108,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1,
+      "display_text": "1 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "N/A",
+    "additional_benefits": [],
+    "cost_per_day": 3.86,
+    "total_data_gb": 28,
+    "cost_per_gb": 3.86
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "28 Day 2GB Pack",
+    "price": 187,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.68,
+    "total_data_gb": 56,
+    "cost_per_gb": 3.34
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "30 Day 2GB Pack",
+    "price": 199,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.63,
+    "total_data_gb": 60,
+    "cost_per_gb": 3.32
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "30 Day Lumpsum Pack",
+    "price": 247,
+    "validity_days": 30,
+    "data": {
+      "type": "lumpsum",
+      "limit_gb": 50,
+      "display_text": "50 GB"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 8.23,
+    "total_data_gb": 50,
+    "cost_per_gb": 4.94
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "45 Day 2GB Pack",
+    "price": 249,
+    "validity_days": 40,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.22,
+    "total_data_gb": 80,
+    "cost_per_gb": 3.11
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "30 Day 3GB Pack",
+    "price": 299,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 9.97,
+    "total_data_gb": 90,
+    "cost_per_gb": 3.32
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "90 Day 2GB Pack",
+    "price": 393,
+    "validity_days": 90,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 4.37,
+    "total_data_gb": 180,
+    "cost_per_gb": 2.18
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "30 Day Truly Unlimited Pack",
+    "price": 398,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 0,
+      "display_text": "Unlimited"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Truly Unlimited Data"
+    ],
+    "cost_per_day": 13.27,
+    "total_data_gb": 0,
+    "cost_per_gb": null
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "82 Day Unlimited Pack",
+    "price": 485,
+    "validity_days": 82,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 5.91,
+    "total_data_gb": 123,
+    "cost_per_gb": 3.94
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "84 Day 5GB Pack",
+    "price": 599,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 5,
+      "display_text": "5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 7.13,
+    "total_data_gb": 420,
+    "cost_per_gb": 1.43
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "105 Day Unlimited Pack",
+    "price": 666,
+    "validity_days": 105,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.34,
+    "total_data_gb": 157.5,
+    "cost_per_gb": 4.23
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "150 Day 2GB Pack",
+    "price": 997,
+    "validity_days": 150,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.65,
+    "total_data_gb": 300,
+    "cost_per_gb": 3.32
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "Annual 3GB Eros Now Pack",
+    "price": 1999,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Eros Now"
+    ],
+    "cost_per_day": 5.48,
+    "total_data_gb": 1095,
+    "cost_per_gb": 1.83
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "Annual 2.5GB Pack",
+    "price": 2399,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 6.57,
+    "total_data_gb": 912.5,
+    "cost_per_gb": 2.63
+  },
+  {
+    "operator": "BSNL",
+    "plan_name": "Annual 3GB Pack",
+    "price": 2799,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 7.67,
+    "total_data_gb": 1095,
+    "cost_per_gb": 2.56
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "14 Day 5G Unlimited Pack",
+    "price": 198,
+    "validity_days": 14,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 14.14,
+    "total_data_gb": 28,
+    "cost_per_gb": 7.07
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "18 Day Unlimited Pack",
+    "price": 199,
+    "validity_days": 18,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 11.06,
+    "total_data_gb": 27,
+    "cost_per_gb": 7.37
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "22 Day Unlimited Pack",
+    "price": 239,
+    "validity_days": 22,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.86,
+    "total_data_gb": 33,
+    "cost_per_gb": 7.24
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day Unlimited Pack",
+    "price": 299,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.68,
+    "total_data_gb": 42,
+    "cost_per_gb": 7.12
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "Calendar Month Unlimited Pack",
+    "price": 319,
+    "validity_days": 30,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.63,
+    "total_data_gb": 45,
+    "cost_per_gb": 7.09
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day JioSaavn Pro Pack",
+    "price": 329,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioSaavn Pro",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 11.75,
+    "total_data_gb": 42,
+    "cost_per_gb": 7.83
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day 5G Unlimited Pack",
+    "price": 349,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 12.46,
+    "total_data_gb": 56,
+    "cost_per_gb": 6.23
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day 5G Unlimited Pack",
+    "price": 399,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 14.25,
+    "total_data_gb": 70,
+    "cost_per_gb": 5.7
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day 5G Unlimited Pack",
+    "price": 449,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 16.04,
+    "total_data_gb": 84,
+    "cost_per_gb": 5.35
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "28 Day 5G Multi-OTT Pack",
+    "price": 500,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar",
+      "Netflix Mobile",
+      "Amazon Prime Video Mobile",
+      "SonyLIV",
+      "ZEE5",
+      "FanCode",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 17.86,
+    "total_data_gb": 56,
+    "cost_per_gb": 8.93
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "56 Day 5G Unlimited Pack",
+    "price": 579,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.34,
+    "total_data_gb": 84,
+    "cost_per_gb": 6.89
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "56 Day 5G Unlimited Pack",
+    "price": 629,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 11.23,
+    "total_data_gb": 112,
+    "cost_per_gb": 5.62
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "70 Day Unlimited Pack",
+    "price": 666,
+    "validity_days": 70,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 9.51,
+    "total_data_gb": 105,
+    "cost_per_gb": 6.34
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "70 Day 5G Unlimited Pack",
+    "price": 719,
+    "validity_days": 70,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.27,
+    "total_data_gb": 140,
+    "cost_per_gb": 5.14
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day Unlimited Pack",
+    "price": 799,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 9.51,
+    "total_data_gb": 126,
+    "cost_per_gb": 6.34
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G Unlimited Pack",
+    "price": 859,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.23,
+    "total_data_gb": 168,
+    "cost_per_gb": 5.11
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "90 Day 5G Bonus Data Pack",
+    "price": 899,
+    "validity_days": 90,
+    "data": {
+      "type": "daily_plus_lumpsum",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day + 20 GB"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 9.99,
+    "total_data_gb": 200,
+    "cost_per_gb": 4.5
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "98 Day 5G Unlimited Pack",
+    "price": 999,
+    "validity_days": 98,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.19,
+    "total_data_gb": 196,
+    "cost_per_gb": 5.1
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G Amazon Prime Pack",
+    "price": 1029,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Amazon Prime Video Mobile",
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 12.25,
+    "total_data_gb": 168,
+    "cost_per_gb": 6.13
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G SonyLIV ZEE5 Pack",
+    "price": 1049,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "SonyLIV",
+      "ZEE5",
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 12.49,
+    "total_data_gb": 168,
+    "cost_per_gb": 6.24
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G Unlimited Pack",
+    "price": 1199,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 14.27,
+    "total_data_gb": 252,
+    "cost_per_gb": 4.76
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G Netflix Hotstar Pack",
+    "price": 1299,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Netflix Mobile",
+      "JioHotstar",
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 15.46,
+    "total_data_gb": 168,
+    "cost_per_gb": 7.73
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "84 Day 5G Netflix Pack",
+    "price": 1799,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Netflix Mobile",
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 21.42,
+    "total_data_gb": 252,
+    "cost_per_gb": 7.14
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "200 Day 5G Unlimited Pack",
+    "price": 2025,
+    "validity_days": 200,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.13,
+    "total_data_gb": 500,
+    "cost_per_gb": 4.05
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "Annual 5G Multi-OTT Pack",
+    "price": 3599,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioHotstar",
+      "Amazon Prime Video Mobile",
+      "SonyLIV",
+      "ZEE5",
+      "FanCode",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 9.86,
+    "total_data_gb": 912.5,
+    "cost_per_gb": 3.94
+  },
+  {
+    "operator": "Jio",
+    "plan_name": "Annual 5G Unlimited Pack",
+    "price": 3999,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Unlimited 5G Data",
+      "JioTV",
+      "JioCinema",
+      "JioCloud"
+    ],
+    "cost_per_day": 10.96,
+    "total_data_gb": 912.5,
+    "cost_per_gb": 4.38
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "18 Day Unlimited Pack",
+    "price": 199,
+    "validity_days": 18,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1,
+      "display_text": "1 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Vi Movies & TV"
+    ],
+    "cost_per_day": 11.06,
+    "total_data_gb": 18,
+    "cost_per_gb": 11.06
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "28 Day Unlimited Pack",
+    "price": 299,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Binge All Night"
+    ],
+    "cost_per_day": 10.68,
+    "total_data_gb": 42,
+    "cost_per_gb": 7.12
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "28 Day Binge Pack",
+    "price": 349,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Binge All Night"
+    ],
+    "cost_per_day": 12.46,
+    "total_data_gb": 42,
+    "cost_per_gb": 8.31
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "28 Day Hotstar Pack",
+    "price": 399,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioHotstar",
+      "Binge All Night"
+    ],
+    "cost_per_day": 14.25,
+    "total_data_gb": 70,
+    "cost_per_gb": 5.7
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "28 Day 3GB Pack",
+    "price": 449,
+    "validity_days": 28,
+    "data": {
+      "type": "daily",
+      "limit_gb": 3,
+      "display_text": "3 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Vi Movies & TV"
+    ],
+    "cost_per_day": 16.04,
+    "total_data_gb": 84,
+    "cost_per_gb": 5.35
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "56 Day Unlimited Pack",
+    "price": 649,
+    "validity_days": 56,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 11.59,
+    "total_data_gb": 112,
+    "cost_per_gb": 5.79
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "77 Day Binge Pack",
+    "price": 666,
+    "validity_days": 77,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Binge All Night"
+    ],
+    "cost_per_day": 8.65,
+    "total_data_gb": 115.5,
+    "cost_per_gb": 5.77
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "84 Day Unlimited Pack",
+    "price": 979,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 11.65,
+    "total_data_gb": 168,
+    "cost_per_gb": 5.83
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "70 Day Netflix Pack",
+    "price": 1198,
+    "validity_days": 70,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Netflix Basic"
+    ],
+    "cost_per_day": 17.11,
+    "total_data_gb": 140,
+    "cost_per_gb": 8.56
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "84 Day Netflix Pack",
+    "price": 1599,
+    "validity_days": 84,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2.5,
+      "display_text": "2.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Netflix Basic"
+    ],
+    "cost_per_day": 19.04,
+    "total_data_gb": 210,
+    "cost_per_gb": 7.61
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "180 Day Binge Pack",
+    "price": 1749,
+    "validity_days": 180,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Binge All Night"
+    ],
+    "cost_per_day": 9.72,
+    "total_data_gb": 270,
+    "cost_per_gb": 6.48
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "Annual Unlimited Pack",
+    "price": 3499,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 1.5,
+      "display_text": "1.5 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [],
+    "cost_per_day": 9.59,
+    "total_data_gb": 547.5,
+    "cost_per_gb": 6.39
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "Annual Hotstar Pack",
+    "price": 3699,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "JioHotstar"
+    ],
+    "cost_per_day": 10.13,
+    "total_data_gb": 730,
+    "cost_per_gb": 5.07
+  },
+  {
+    "operator": "Vi",
+    "plan_name": "Annual Amazon Prime Pack",
+    "price": 3799,
+    "validity_days": 365,
+    "data": {
+      "type": "daily",
+      "limit_gb": 2,
+      "display_text": "2 GB/Day"
+    },
+    "voice": "Unlimited",
+    "sms": "100/day",
+    "additional_benefits": [
+      "Amazon Prime Video Mobile"
+    ],
+    "cost_per_day": 10.41,
+    "total_data_gb": 730,
+    "cost_per_gb": 5.2
+  }
+]

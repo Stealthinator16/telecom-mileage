@@ -1,0 +1,385 @@
+@import "tailwindcss";
+
+/* --- THEME & COLOR PALETTE --- */
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    
+  /* NEW: Refined Light Theme */
+  --bg-color: #f0f5ff; /* Subtle, sophisticated light blue */
+  --card-bg: #ffffff;
+  --header-bg: rgba(255, 255, 255, 0.8); /* Slightly more opaque for readability */
+  --text-primary: #1a202c;
+  --text-secondary: #5a6474; /* A slightly softer grey */
+  --border-color: #e2e8f0;   /* A cool-toned border color */
+  --accent-jio: #0050c0;
+  --accent-airtel: #e40000;
+  --accent-vi: #6739b7;
+  --accent-bsnl: #1a8c3d;
+  --button-hover-bg: #1a202c;
+
+  /* Value Colors */
+  --green-text: #27ae60;
+  --green-bg: #eafaf1;
+  --amber-text: #f39c12;
+  --amber-bg: #fef5e7;
+  --red-text: #e74c3c;
+  --red-bg: #fdedec;
+}
+
+body.dark-mode {
+  /* Sick Dark Theme */
+  --bg-color: #0d1117;
+  --card-bg: #161b22;
+  --header-bg: rgba(22, 27, 34, 0.7);
+  --text-primary: #c9d1d9;
+  --text-secondary: #8b949e;
+  --border-color: #30363d;
+  --button-hover-bg: #4b5563;
+
+  /* Value Colors - Dark */
+  --green-text: #23d160;
+  --green-bg: rgba(35, 209, 96, 0.1);
+  --amber-text: #ffdd57;
+  --amber-bg: rgba(255, 221, 87, 0.1);
+  --red-text: #ff3860;
+  --red-bg: rgba(255, 56, 96, 0.1);
+}
+
+/* --- BASE STYLES & LAYOUT --- */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-content { display: flex; padding: 2.5rem; gap: 2rem; max-width: 1440px; margin: 0 auto; }
+main { flex-grow: 1; }
+
+/* --- HEADER --- */
+header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--header-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;
+}
+header h1 { font-size: 2.25rem; font-weight: 800; letter-spacing: -0.05em; }
+header p { color: var(--text-secondary); margin-top: 0.25rem; }
+
+/* --- THEME TOGGLE --- */
+.dark-mode-switcher { position: absolute; top: 50%; transform: translateY(-50%); right: 2rem; display: flex; align-items: center;}
+.dark-mode-switcher span { font-size: 0.875rem; color: var(--text-secondary); font-weight: 500; }
+.switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+  position: absolute; cursor: pointer; inset: 0; background-color: #7676804d; border-radius: 34px; transition: .4s cubic-bezier(.17,.67,.43,1.63);
+}
+.slider:before {
+  position: absolute; content: ""; height: 20px; width: 20px; left: 2px; bottom: 2px;
+  background-color: white; border-radius: 50%; transition: .4s cubic-bezier(.17,.67,.43,1.63);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23f39c12' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='5'%3E%3C/circle%3E%3Cline x1='12' y1='1' x2='12' y2='3'%3E%3C/line%3E%3Cline x1='12' y1='21' x2='12' y2='23'%3E%3C/line%3E%3Cline x1='4.22' y1='4.22' x2='5.64' y2='5.64'%3E%3C/line%3E%3Cline x1='18.36' y1='18.36' x2='19.78' y2='19.78'%3E%3C/line%3E%3Cline x1='1' y1='12' x2='3' y2='12'%3E%3C/line%3E%3Cline x1='21' y1='12' x2='23' y2='12'%3E%3C/line%3E%3Cline x1='4.22' y1='19.78' x2='5.64' y2='18.36'%3E%3C/line%3E%3Cline x1='18.36' y1='5.64' x2='19.78' y2='4.22'%3E%3C/line%3E%3C/svg%3E");
+}
+input:checked + .slider { background-color: var(--accent-jio); }
+input:checked + .slider:before {
+  transform: translateX(20px);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23c9d1d9' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/* --- FILTER PANEL --- */
+.filter-panel {
+  width: 280px; flex-shrink: 0; background-color: var(--card-bg); padding: 1.5rem;
+  border-radius: 12px; border: 1px solid var(--border-color); align-self: flex-start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;}
+.filter-group { margin: 1.75rem 0; }
+.filter-group h3 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: var(--text-primary); }
+.filter-group label {
+  display: flex; align-items: center; margin-bottom: 0.75rem; cursor: pointer;
+  font-size: 0.95rem; color: var(--text-secondary); transition: color 0.2s ease;
+}
+.filter-group label:hover { color: var(--text-primary); }
+.filter-checkbox {
+  appearance: none; -webkit-appearance: none; width: 18px; height: 18px; border: 2px solid var(--border-color);
+  border-radius: 5px; margin-right: 0.75rem; cursor: pointer; position: relative;
+  transition: all 0.2s ease;
+}
+.filter-checkbox:checked { border-color: var(--accent-jio); background-color: var(--accent-jio); }
+.filter-checkbox:checked::before {
+  content: '✓'; color: white; font-size: 14px; font-weight: bold; position: absolute;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+/* --- FILTER HEADER --- */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem; /* This provides space below the header */
+}
+
+.filter-panel h2 { margin: 0; font-size: 1.25rem; font-weight: 600; border: none; padding: 0; }
+.reset-icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem; /* 8px padding */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+}
+
+.reset-icon-button:hover {
+    background-color: var(--bg-color); /* A very subtle background on hover */
+    color: var(--text-primary);
+    transform: rotate(-90deg); /* Nice little animation */
+}
+
+.reset-icon-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* --- CONTROLS & SORTING --- */
+.controls {
+  background-color: var(--header-bg); /* Use the glassy background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;
+}
+.controls span { font-weight: 600; color: var(--text-secondary); margin-right: 0.5rem; }
+.controls button {
+  background-color: transparent; border: 1px solid transparent; color: var(--text-secondary);
+  padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 500;
+  transition: all 0.2s ease;
+}
+.controls button:hover { color: var(--text-primary); background-color: var(--bg-color); }
+.controls button.active { color: #fff; background-color: var(--button-hover-bg); }
+
+/* --- PLAN CARDS --- */
+.plans-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+.plan-card {
+  background-color: var(--card-bg); border-radius: 12px; border: 1px solid var(--border-color);
+  width: 100%; display: flex; flex-direction: column; transition: all 0.3s ease;
+  position: relative; overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;
+}
+.plan-card.jio:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); border-color: var(--accent-jio); }
+.plan-card.airtel:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); border-color: var(--accent-airtel); }
+.plan-card.vi:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); border-color: var(--accent-vi); }
+.plan-card.bsnl:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); border-color: var(--accent-bsnl); }
+body.dark-mode .plan-card:hover { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.4); }
+
+.card-header { padding: 1.25rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: baseline; }
+.card-header h3 { margin: 0; font-size: 1.75rem; font-weight: 700; letter-spacing: -0.025em; }
+.card-header span { font-size: 0.9rem; font-weight: 500; color: var(--text-secondary); }
+.card-body { padding: 1.25rem; flex-grow: 1; }
+.card-body p { margin: 0 0 0.75rem 0; font-size: 1rem; }
+.card-body strong { font-weight: 600; color: var(--text-primary); }
+
+.benefits ul { list-style: none; padding-left: 0; margin: 0.5rem 0 0; }
+.benefits li {
+  font-size: 0.9rem; color: var(--text-secondary); display: flex; align-items: center;
+  margin-bottom: 0.5rem;
+}
+/* SVG checkmark for benefits */
+.benefits li svg {
+  width: 16px; height: 16px; margin-right: 0.5rem; flex-shrink: 0;
+  color: var(--green-text);
+}
+
+.card-footer {
+  padding: 1.25rem; border-top: 1px solid var(--border-color);
+  display: flex; justify-content: space-between; font-size: 0.9rem;
+}
+
+/* --- SEARCH INPUT --- */
+.search-input {
+  flex: 1; min-width: 140px; max-width: 260px;
+  padding: 0.5rem 0.75rem; border-radius: 8px;
+  border: 1px solid var(--border-color); background-color: var(--card-bg);
+  color: var(--text-primary); font-size: 0.9rem;
+  transition: all 0.2s ease; outline: none;
+}
+.search-input:focus { border-color: var(--accent-jio); box-shadow: 0 0 0 2px rgba(0, 80, 192, 0.15); }
+.search-input::placeholder { color: var(--text-secondary); }
+
+/* --- PLAN COUNT & SORT LABEL --- */
+.plan-count { font-size: 0.85rem !important; font-weight: 500 !important; color: var(--text-secondary); white-space: nowrap; }
+.sort-label { font-weight: 600; color: var(--text-secondary); white-space: nowrap; margin-left: auto; }
+
+/* --- STICKY CONTROLS --- */
+.controls {
+  position: sticky; top: 0; z-index: 10;
+}
+
+/* --- OPERATOR TAG --- */
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.25rem; }
+.operator-tag {
+  font-size: 0.75rem; font-weight: 600; padding: 2px 8px; border-radius: 4px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.jio .operator-tag { color: var(--accent-jio); background-color: rgba(0, 80, 192, 0.1); }
+.airtel .operator-tag { color: var(--accent-airtel); background-color: rgba(228, 0, 0, 0.1); }
+.vi .operator-tag { color: var(--accent-vi); background-color: rgba(103, 57, 183, 0.1); }
+.bsnl .operator-tag { color: var(--accent-bsnl); background-color: rgba(26, 140, 61, 0.1); }
+
+/* --- PRICE SYMBOL --- */
+.price-symbol { font-weight: 400; font-size: 1.1rem; opacity: 0.7; }
+
+/* --- BEST VALUE BADGES --- */
+.badge-container { display: flex; gap: 0.5rem; padding: 0.5rem 1.25rem 0; }
+.best-value-badge {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 3px 8px; border-radius: 4px;
+  color: var(--green-text); background-color: var(--green-bg);
+}
+
+/* --- NO RESULTS --- */
+.no-results { text-align: center; color: var(--text-secondary); padding: 3rem 1rem; font-size: 1.1rem; }
+
+/* --- VALUE COLOR CODING --- */
+.cost-value { font-weight: 600; padding: 4px 8px; border-radius: 6px; }
+.cost-green { color: var(--green-text); background-color: var(--green-bg); }
+.cost-amber { color: var(--amber-text); background-color: var(--amber-bg); }
+.cost-red { color: var(--red-text); background-color: var(--red-bg); }
+
+/*
+============================================================
+  MOBILE RESPONSIVENESS (v2.0 - HYPERMODERN HORIZONTAL FILTERS)
+============================================================
+This block applies only when the screen width is 768px or less.
+*/
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  /* --- HEADER & CONTROLS --- */
+  header { padding: 1rem; text-align: left; }
+  header h1 { font-size: 1.5rem; }
+  header p { font-size: 0.875rem; }
+  .dark-mode-switcher { right: 1rem; }
+  .controls { flex-wrap: wrap; position: static; }
+  .search-input { max-width: 100%; flex-basis: 100%; }
+  .sort-label { margin-left: 0; }
+
+  /* --- THE MAIN TRANSFORMATION: THE FILTER PANEL --- */
+  .filter-panel {
+    width: 100vw; /* Take full viewport width */
+    margin-left: -1rem; /* Pull to the edge to align with body */
+    padding: 1rem;
+    
+    /* This is the magic for horizontal scrolling */
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent chips from wrapping */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    
+    gap: 0.75rem; /* Space between filter groups/chips */
+    border: none;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+    position: static;
+    background-color: var(--bg-color); /* Match the page background */
+  }
+
+  /* Hide the scrollbar for a cleaner look */
+  .filter-panel::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-panel {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Hide the "Filters" h2 and group h3's on mobile, they are redundant */
+  .filter-panel h2, .filter-group h3 {
+    display: none;
+  }
+
+  /* The filter header now only holds the reset button */
+  .filter-header {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Make the reset button look like a primary chip */
+  .reset-icon-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px; /* Pill shape */
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    font-weight: 500;
+    font-size: 0.875rem;
+    transform: none; /* Override hover rotation */
+  }
+  .reset-icon-button:hover {
+    background-color: var(--card-bg); /* No background change, just border */
+    border-color: var(--text-primary);
+  }
+
+  /* Reset the groups to be simple containers for chips */
+  .filter-group {
+    margin: 0;
+    display: contents; /* Makes the group a non-visual container */
+  }
+
+  /* The "Chip" or "Pill" styling for each filter label */
+  .filter-group label {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 9999px;
+    background-color: var(--card-bg);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0;
+    flex-shrink: 0; /* Prevent chips from shrinking */
+  }
+
+  /* Hide the actual checkbox input visually */
+  .filter-group label .filter-checkbox {
+    display: none;
+  }
+
+  /* Style for a SELECTED chip using the hypermodern :has() selector */
+  .filter-group label:has(.filter-checkbox:checked) {
+    background-color: var(--button-hover-bg);
+    color: #fff;
+    border-color: transparent;
+  }
+  
+  /* --- OTHER MOBILE LAYOUTS --- */
+  main { width: 100%; }
+  .plans-container { grid-template-columns: 1fr; }
+}
