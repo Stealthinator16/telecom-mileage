@@ -1,5 +1,7 @@
 # Telecom Mileage
 
+**Live at [telecommileage.vercel.app](https://telecommileage.vercel.app/)**
+
 Compare prepaid recharge plans across Indian telecom carriers (Jio, Airtel, Vi, BSNL) and find the best value for your money.
 
 ## What It Does
@@ -52,4 +54,4 @@ recharge/
 
 ## License
 
-This project is provided as-is with no explicit license.
+MIT License. See [LICENSE](LICENSE) for details.
